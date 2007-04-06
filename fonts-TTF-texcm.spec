@@ -8,7 +8,8 @@ Source0:	http://www.mozilla.org/projects/mathml/fonts/bakoma/texcm-ttf.zip
 # Source0-md5:	7bd39b8860b09c8d5e507dae70484b80
 Source1:	http://www.mozilla.org/projects/mathml/fonts/bakoma/license.txt
 # Source1-md5:	3ae8d75400a0078db5d7276366c776b0
-URL:	http://www.mozilla.org/projects/mathml/fonts/
+URL:		http://www.mozilla.org/projects/mathml/fonts/
+Requires(post,postun):	fontpostinst
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
