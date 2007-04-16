@@ -1,4 +1,5 @@
 Summary:	TeX's Computer Modern Fonts
+Summary(pl.UTF-8):	Fonty Computer Modern z TeXa
 Name:		fonts-TTF-texcm
 Version:	1.0
 Release:	1
@@ -17,6 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TeX's Computer Modern Fonts.
+
+%description -l pl.UTF-8
+Fonty Computer Modern z TeXa.
 
 %prep
 %setup -q -n texcm-ttf
