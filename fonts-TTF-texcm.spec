@@ -10,6 +10,7 @@ Source0:	http://www.mozilla.org/projects/mathml/fonts/bakoma/texcm-ttf.zip
 Source1:	http://www.mozilla.org/projects/mathml/fonts/bakoma/license.txt
 # Source1-md5:	3ae8d75400a0078db5d7276366c776b0
 URL:		http://www.mozilla.org/projects/mathml/fonts/
+BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
